@@ -1028,8 +1028,7 @@ window.App = (function () {
       <div class="set-row"><label>♻️ Tout remettre par défaut</label>
         <button class="btn ghost" onclick="App.resetSettings()">Réinitialiser</button></div>
     </div>
-    <div class="card"><h3 style="margin-top:0">🌐 Mettre en ligne</h3>
-      <p class="muted">Ce site est prêt pour <b>GitHub Pages</b> (dossier <code>espanol-express</code>). Demande-moi « publie sur GitHub » et je t'explique pas à pas.</p></div>`;
+`;
   }
   const opt = (v, l, cur) => `<option value="${v}" ${cur === v ? 'selected' : ''}>${l}</option>`;
   const currentAccent = () => (THEMES.find(x => x.id === S.theme) || THEMES[0]).v.accent;
